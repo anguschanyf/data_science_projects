@@ -7,8 +7,8 @@ library(tidyverse)
 library(lubridate)
 library(rvest)
 
+# register and obtain an API key from The Guardian Open Platform for authentication.
 # check if an API key is stored in the session variable
-# e8ed6ca1-3e91-4be9-9d4d-5ac7838636a0
 gu_api_key()
 
 #build a query
