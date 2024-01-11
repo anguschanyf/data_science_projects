@@ -5,7 +5,6 @@ library(guardianapi)
 library(plyr)
 library(tidyverse)
 library(lubridate)
-library(rvest)
 
 # register and obtain an API key from The Guardian Open Platform for authentication.
 # check if an API key is stored in the session variable
