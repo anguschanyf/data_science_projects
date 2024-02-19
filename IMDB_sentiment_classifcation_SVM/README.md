@@ -1,5 +1,5 @@
 This folder contains codes and data for a semtiment classifation of IMBD reviews with SVM model.
-Data is obtained from https://ai.stanford.edu/~amaas/data/sentiment/
+Data is a set of 25,000 highly polar movie reviews for training, and 25,000 for testing. Obtained from https://ai.stanford.edu/~amaas/data/sentiment/
 
 Best performace matrics obtained is as follows:
 Best parameters: {'k_best__k': 1000, 'svm__C': 0.1}
