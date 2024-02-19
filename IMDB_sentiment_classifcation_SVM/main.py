@@ -114,10 +114,10 @@ def train_and_predict_with_grid_search(train_df, test_df, feature_values=None):
     return predictions
 
 # Example usage
-train_positive_folder = 'train/pos'
-train_negative_folder = 'train/neg'
-test_positive_folder = 'test/pos'
-test_negative_folder = 'test/neg'
+train_positive_folder = 'aclImdb/train/pos'
+train_negative_folder = 'aclImdb/train/neg'
+test_positive_folder = 'aclImdb/test/pos'
+test_negative_folder = 'aclImdb/test/neg'
 
 # Read training data
 train_positive_df = read_txt_files(train_positive_folder, label=1)
