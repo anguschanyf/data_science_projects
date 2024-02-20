@@ -1,7 +1,7 @@
 This folder contains codes and data for a sentiment classification of IMBD reviews with the SVM model.
 Data is a set of 25,000 highly polar movie reviews for training and 25,000 for testing. Obtained from https://ai.stanford.edu/~amaas/data/sentiment/
 
-This code perform the process of training a SVM with hyperparameter tuning using grid search. It reads txt 25000 txt files from the training dataset, extract their content and label them as 'positive' or 'negative' as target variable. Then, it prerprocess the text by converting text to lowercase, removing punctuation, removes stop words using NLTK's English stop words, and applies stemming using the Porter stemming algorithm. Due to the use of a large dataset, the model training process involves fearture selection ('SelectKBest') and a linear SVM classifier ('LinearSVC) with grid search for hyperparameter tuning.
+This code perform the process of training a SVM with hyperparameter tuning using grid search. It reads txt 25000 txt files from the training dataset, extract their content and label them as 'positive' or 'negative' as target variable. Then, it prerprocess the text by converting text to lowercase, removing punctuation, removes stop words using NLTK's English stop words, and applies stemming using the Porter stemming algorithm. Due to the use of a large dataset, the model training process involves fearture selection ('SelectKBest') and a linear SVM classifier ('LinearSVC) with grid search for hyperparameter tuning. The grid search is performed with 5-fold cross-validation, and the results are printed as follows (including parameters and mean test scores).
 
 The results of grid search are as follows.
 | rank_test_score |                             params |mean_test_score (f1 score)
