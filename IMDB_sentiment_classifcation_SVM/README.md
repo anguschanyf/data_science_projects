@@ -25,9 +25,9 @@ The results of grid search are as follows.
 |16               |    {'k_best__k': 10, 'svm__C': 10} |        0.764883
 |18               |   {'k_best__k': 10, 'svm__C': 0.1} |        0.764856
 
-Best parameters: {'k_best__k': 1000, 'svm__C': 0.1}
-Evaluation Metrics:
-Accuracy: 0.87412
-Precision: 0.8671586715867159
-Recall: 0.8836
+Best parameters: {'k_best__k': 1000, 'svm__C': 0.1} \n
+Evaluation Metrics:\n
+Accuracy: 0.87412\n
+Precision: 0.8671586715867159\n
+Recall: 0.8836\n
 F1 Score: 0.8753021357530612
